@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bouton.css" />
+    <title>Clicker</title>
+</head>
+
+<header>
+    <h1>~Chi Clicker Game~</h1>
+</header>
+
+<body>
+    <div class="chi">
+        <p>Chi has <br><span id="happiness">0</span><br>points of happiness<br><br></p>
+        <p class="persecond"><span id="hps">0</span> points of happiness per second</p>
+    </div>
+    <img class="principal_pic" src="chi.jpg" onclick="addHappiness(1)"></img>
+    <div class="achat">
+        <button class="bouton_purr" onclick="purr()">
+            Purr | <span id="p">0</span><br>
+            <p class="display_price">Price : <span id="pricePurr">50</span></p>
+        </button>
+        <button class="bouton_food" onclick="food()">
+            Food | <span id="f">0</span><br>
+            <p class="display_price">Price : <span id="priceFood">100</span></p>
+        </button>
+        <button class="bouton_toy" onclick="toy()">
+            Toy | <span id="t">0</span><br>
+            <p class="display_price">Price : <span id="priceToy">175</span></p>
+        </button>
+        <button class="bouton_box" onclick="box()">
+            Box | <span id="b">0</span><br>
+            <p class="display_price">Price : <span id="priceBox">500</span></p>
+        </button>
+        <button class="bouton_cattree" onclick="cattree()">
+            Cat tree | <span id="ct">0</span><br>
+            <p class="display_price">Price : <span id="priceCTree">1700</span></p>
+        </button>
+    </div>
+</body>
+
+</html>

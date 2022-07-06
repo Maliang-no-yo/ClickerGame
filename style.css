@@ -1,0 +1,67 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+
+body {
+    background-image: url("fond.jpg");
+}
+header {
+    background-color: black;
+    color: white;
+    font-size: 200%;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+    padding: 1%;
+}
+
+.chi{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    text-align: center;
+    font-size: 220%;
+    font-style: bold;
+}
+
+.principal_pic {
+    height: 50%;
+    transition: 0.5s;
+    position: absolute;
+    top: 30%;
+    margin-left: 38%;
+}
+
+.principal_pic:hover {
+    transform:scale(1.1)
+}
+
+.principal_pic:active {
+    transition: 0.2s;
+    transform:scale(0.9)
+}
+
+#happiness {
+    color: #f6378f;
+    font-size: 300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.achat {
+    position: absolute;
+    margin-right: 5%;
+    left: 65%;
+    top: 30%;
+    text-align: center; 
+}
+
+.display_price {
+    font-size: smaller;
+}
+
+.persecond {
+    font-size: smaller;
+}

@@ -1,0 +1,79 @@
+.bouton_purr {
+    background-color: lightyellow;
+    color: black;
+    border-style: groove;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 130%;
+    width: 100%;
+    height: 70px;
+}
+
+.bouton_purr:hover {
+    background-image: url("purr2.jpeg");
+    color: black;
+}
+
+.bouton_food {
+    background-color: lightyellow;
+    color: black;
+    border-style: groove;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 130%;
+    width: 100%;
+    height: 70px;
+}
+
+.bouton_food:hover {
+background-image: url("food.jpg");
+color: black;
+}
+
+.bouton_toy {
+    background-color: lightyellow;
+    color: black;
+    border-style: groove;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 130%;
+    width: 100%;
+    height: 70px;
+}
+
+.bouton_toy:hover {
+background-image: url("toy.jpg");
+color: black;
+}
+
+.bouton_box {
+    background-color: lightyellow;
+    color: black;
+    border-style: groove;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 130%;
+    width: 100%;
+    height: 70px;
+}
+
+.bouton_box:hover {
+background-image: url("box.jpg");
+color: black;
+}
+
+.bouton_cattree {
+    background-color: lightyellow;
+    color: black;
+    border-style: groove;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 130%;
+    width: 100%;
+    height: 70px;
+}
+
+.bouton_cattree:hover {
+background-image: url("cattree3.jpg");
+color: black;
+}
